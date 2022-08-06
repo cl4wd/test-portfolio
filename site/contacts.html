@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<title>JT Machinima</title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="contacts.css">
+</head>
+<body>
+
+	<h1 id="m"><a href="https://www.youtube.com/watch?v=n9qhyS-DKuw">JT Machinima</a></h1>
+
+	<header>
+		<nav>
+		  <ul>
+		  	<li><a href="acceuil.html">acceuil</a></li>
+		    <li class="deroulant"><a>chansons &ensp;</a>
+		      <ul class="sous">
+		      	<li><a id="r" href="bioshock.html">Rapture Rise</a></li>
+		        <li><a id="d" href="dark souls.html">Undead Lullaby</a></li>
+		        <li><a id="s" href="smile.html">Anytime You Smile</a></li>
+		      </ul>
+		    <li><a id="c" href="contacts.html">Contact</a></li>
+		    <li><a href="photos.html">Photos</a></li>
+		  </ul>
+		</nav>
+	</header>
+	<br/>
+
+<form method="post" action="traitement.php">
+	<fieldset>
+		<p><input type="radio" name="h" id="h">
+		<label for="h">homme</label></p>
+		<p><input type="radio" name="f" id="f">
+		<label for="f">femme</label><br/></p>
+		</select><br/>
+		<p><label for="nom">Votre nom</label><br/>
+		<input type="text" name="nom" id="nom" /></p>
+		<p><label for="prenom">Votre prenom</label><br/>
+		<input type="text" name="prenom" id="prenom" /></p>
+		<p>votre mail</p>
+		<input type="email"><br/>
+
+		<p><label for="mes">message</label><br/>
+			<select name="mes" id="mes">
+				<option label="Ajouter une chanson">
+					<option value="f">Signaler une faute</option>
+					<option value="a">Autre</option>
+				</option>
+			</select>
+			<br/>
+			<textarea name="desc" id="desc"></textarea></p>
+			<input type="submit" value="envoyer"/>
+	</fieldset>
+
+</body>
+</html>

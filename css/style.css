@@ -1,0 +1,290 @@
+#nom{
+	font-size: 40px;
+	text-align: center;
+	text-decoration: underline;
+	padding-left: 5%;
+}
+
+#dz{
+	width: 30%;
+	margin-right: 2%;
+	margin-left: 2%;
+	float: left;
+}
+
+*{
+	transition: all .5s ease-in-out;
+	font-family: arial;
+}
+header{
+	width: 100%;
+	height: 100%;
+}
+.centreles {
+	padding: 0;
+}
+nav{
+	width: 100%;
+	height: 100%;
+	float: left;
+	margin: 1% 0 0 0;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    float: left;
+    width: 24%;
+    text-align: center;
+    position: relative;
+    margin: 0 4% 0 4%;
+}
+
+nav ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    color: #309fb5;
+    border-bottom: 2px solid transparent;
+    border-radius: 0 10px 0 10px;
+    padding: 10px 0px;
+}
+
+nav a:hover{
+    color: #fefcd5;
+    border-bottom: 2px solid gold;
+    border-radius: 10px 0 10px 0;
+}
+
+.sous{
+    display: none;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+    top: 45px;
+    left: -40px;
+}
+nav > ul li:hover .sous{
+    display: block;
+}
+.sous li{
+    float: none;
+    width: 100%;
+    text-align: left;
+}
+.sous a{
+    padding: 10px;
+    border-bottom: none;
+}
+.sous a:hover{
+    border-bottom: none;
+}
+
+section{
+	background-color: #21155c;
+	width: 100%;
+	height: 100%;
+	float: left;
+	text-align: center;
+	margin: 0;
+	color: #B6b3af;
+}
+
+footer{
+	background-color: #08193e;
+	width: 100%;
+	height: 100%;
+	justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+footer h2{
+	text-align: center;
+}
+.her {
+	position: sticky;
+}
+body{
+	margin-left: 18.5%;
+	margin-right: 18.5%;
+	background-image: url("../img/wallpaper15.jpg");
+	background-attachment: fixed;
+	background-size: 130%;
+	background-position: center;
+		-webkit-animation: bg-pan-right 8s ease-in-out infinite alternate both;
+	        animation: bg-pan-right 8s ease-in-out infinite alternate both;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+a{
+	font-size: 20px;
+	text-decoration: none;
+	color: #B6b3af;
+}
+
+.navcolor{
+	background-color: #5a138b;
+}
+.navcolor2{
+	background-color: #248fc4;
+	color: black;
+}
+#visu{
+	width: 90%;
+	margin: 5%;
+}
+
+#visu1{
+	width: 40%;
+	margin: 5%;
+}
+
+#visu2{
+	width: 45%;
+	margin: 5%;
+}
+
+#dev1{
+	width: 90%;
+	margin: 5%;
+}
+
+#av{
+	width: 90%;
+	margin: 5%;
+}
+
+.foot{
+	font-size: 20px;
+	color: #B6b3af;
+	display: inline-block;
+	width: 40%;
+	height: 100%;
+}
+
+#foot{
+	font-size: 20px;
+	color: #3ea0a9;
+}
+
+p{
+	font-size: 20px;
+}
+
+h2{
+	font-size: 40px;
+}
+
+h1{
+	font-size: 25px;
+	color: #248fc4;
+}
+
+h3{
+	font-size: 22px;
+	color: #9925FF;
+}
+
+#pres{
+	margin-left: 5%;
+	margin-right: 5%;
+	font-size: 30px;
+	line-height: 1.5;
+}
+
+#CV{
+	color: #B6b3af;
+	font-size: 30px;
+}
+
+#logo2{
+	width: 95%;
+}
+.bgwhite {
+	position: relative;
+	width: 100%;
+	background-color: #1b204c;
+}
+.him {
+	background-color: #1b204c;
+	position: sticky;
+	top: 0;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.example::-webkit-scrollbar {
+  display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+.example {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+@keyframes bg-pan-right {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+//contacts
+
+form {
+  margin: 0 auto;
+  width: 400px;
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+}
+
+form div + div {
+  margin-top: 1em;
+}
+
+label {
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+
+input, textarea {
+  font: 1em sans-serif;
+
+  width: 300px;
+  box-sizing: border-box;
+
+  border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+  border-color: #000;
+}
+
+textarea {
+  vertical-align: top;
+  height: 5em;
+}
+
+.button {
+  padding-left: 90px;
+}
+
+button {
+  margin-left: .5em;
+}
+
+#voir{
+	width: 20%;
+	display: inline-block;
+	margin-top: auto;
+	vertical-align: top;
+}
